@@ -15,7 +15,7 @@ namespace GtaConsole
             Voertuig truck = new Vrachtwagen();
 
             truck.Stuur(5);
-            car.Stuur(150);
+            car.Stuur(50);
             car.Rij();
             truck.Rij();
             truck.LaadLeeg();
