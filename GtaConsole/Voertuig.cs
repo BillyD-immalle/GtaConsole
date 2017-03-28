@@ -17,16 +17,16 @@ namespace GtaConsole
 
         public virtual void Rij()
         {
-            Console2.WriteLine("Het {{voertuig}} rijdt...", ConsoleColor.White, kleur);
+           
         }
 
         public virtual void Stuur(int graden)
         {
-            Console.WriteLine("");
+            
         }
         public virtual void LaadLeeg()
         {
-            Console.WriteLine("");
+            
         }
     }
 }

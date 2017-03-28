@@ -11,5 +11,14 @@ namespace GtaConsole
         public Brommer(ConsoleColor kleur) : base(kleur)
         {
         }
+        public override void Rij()
+        {
+            Console2.WriteLine("De brommer rijdt...", ConsoleColor.Red);
+        }
+        public override void Stuur(int graden)
+        {
+            Console.WriteLine("De brommer draait {0}°", graden);
+            base.Stuur(graden);
+        }
     }
 }

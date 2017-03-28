@@ -6,16 +6,15 @@ using System.Threading.Tasks;
 
 namespace GtaConsole
 {
-    class Persoon
+    class Chauffeur : Persoon
     {
         private string naam;
 
-        public Persoon(string naam)
+        public Chauffeur(string naam) : base(naam)
         {
-            this.naam = naam;
         }
 
-        public virtual void Rijbewijs()
+        public virtual void Rijbewijs(string naam)
         {
             Console.WriteLine("{0} heeft een rijbewijs.", naam);
         }

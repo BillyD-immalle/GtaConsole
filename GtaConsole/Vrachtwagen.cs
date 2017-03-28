@@ -8,8 +8,7 @@ namespace GtaConsole
 {
     class Vrachtwagen : Voertuig
     {
-        public Vrachtwagen()
-           : base(ConsoleColor.Green)
+        public Vrachtwagen() : base(ConsoleColor.Green)
         {
         }
 

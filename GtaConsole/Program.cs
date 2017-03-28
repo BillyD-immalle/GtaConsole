@@ -11,9 +11,9 @@ namespace GtaConsole
         static void Main(string[] args)
         {
             Console.Clear();
-            Voertuig car = new Auto();
-            Voertuig truck = new Vrachtwagen();
-            Persoon loes = new Persoon("Loes");
+            Auto car = new Auto();
+            Vrachtwagen truck = new Vrachtwagen();
+            Chauffeur loes = new Chauffeur("Loes");
 
             truck.Stuur(5);
             car.Stuur(50);
