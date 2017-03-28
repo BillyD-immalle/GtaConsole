@@ -17,8 +17,7 @@ namespace GtaConsole
         }
         public override void Stuur(int graden)
         {
-            Console.WriteLine("De auto bestuurder draait {0}°", graden);
-            base.Stuur(graden);
+            Console.WriteLine("De auto bestuurder draait {0}°", graden);            
         }
     }
 }

@@ -6,27 +6,19 @@ using System.Threading.Tasks;
 
 namespace GtaConsole
 {
-    class Voertuig       
+    abstract class Voertuig       
     {
-        private ConsoleColor kleur;
+        private ConsoleColor green;
 
-        public Voertuig(ConsoleColor kleur)
+        public Voertuig(ConsoleColor green)
         {
-            this.kleur = kleur;
-        }       
-
-        public virtual void Rij()
-        {
-           
+            this.green = green;
         }
 
-        public virtual void Stuur(int graden)
-        {
-            
-        }
-        public virtual void LaadLeeg()
-        {
-            
-        }
+        public abstract void Rij();
+
+        public abstract void Stuur(int graden);
+
+
     }
 }

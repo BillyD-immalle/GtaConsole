@@ -8,8 +8,6 @@ namespace GtaConsole
 {
     class Chauffeur : Persoon
     {
-        private string naam;
-
         public Chauffeur(string naam) : base(naam)
         {
         }

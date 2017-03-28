@@ -21,8 +21,6 @@ namespace GtaConsole
             truck.Rij();
             truck.LaadLeeg();
             loes.Rijbewijs();
-
-
         }
     }    
 }

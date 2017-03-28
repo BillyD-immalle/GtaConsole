@@ -19,11 +19,10 @@ namespace GtaConsole
 
         public override void Stuur(int graden)
         {
-            Console.WriteLine("De vrachtwagenchauffeur kijkt in zijn dode-hoek-spiegel");
-            base.Stuur(graden);
+            Console.WriteLine("De vrachtwagenchauffeur kijkt in zijn dode-hoek-spiegel");           
         }
 
-        public override void LaadLeeg()
+        public  void LaadLeeg()
         {
             Console.WriteLine("Vrachtwagenchauffeur laadt zijn vrachtwagen uit");
         }
